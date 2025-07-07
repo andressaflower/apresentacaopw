@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>ApresentacaoPW</title>
+</head>
+<body>
+    <header>
+        
+        <div class="container-coracao">
+            <img src="src/image/coracao.png" alt="coracao"> 
+            <img src="src/image/coracao.png" alt="coracao"> 
+            <img src="src/image/coracao.png" alt="coracao"> 
+            <img src="src/image/coracao.png" alt="coracao"> 
+            <img src="src/image/coracao.png" alt="coracao"> 
+        </div>
+        <div class="container-estrela">
+            <img src="src/image/estrela.png" alt="estrela">
+            <img src="src/image/estrela.png" alt="estrela">
+            <img src="src/image/estrela.png" alt="estrela">
+            <img src="src/image/estrela.png" alt="estrela">
+            <img src="src/image/estrela.png" alt="estrela">
+        </div>
+
+        
+        <div class="background">
+            <img src="src/image/nuvem1.png" class="nuvem nuvem1" alt="Nuvem1">
+            <img src="src/image/nuvem1.png" class="nuvem nuvem2" alt="Nuvem2">
+            <img src="src/image/nuvem2.png" class="nuvem nuvem3" alt="Nuvem3">
+            <img src="src/image/nuvem2.png" class="nuvem nuvem4" alt="Nuvem4">
+            <img src="src/image/nuvem2.png" class="nuvem nuvem5" alt="Nuvem5">
+
+            <div class="content">
+                <!-- Logo, texto, botão e árvores -->
+                <div class="topo-central">
+                    <div class="container-ieacb">
+                        <img src="src/image/ieacbicon.png" alt="ieacb" class="logo-ieacb">
+                    </div>
+
+                    <h1 class="texto-principal">PR<span class="texto-azul">O</span>GR<span class="texto-rosa">A</span>MA<span class="texto-azul">Ç</span><span class="texto-rosa">Ã</span>O</h1>
+
+                    <div class="container-button-introducao">
+                        INTRODUÇÃO À PROGRAMAÇÃO
+                    </div>
+
+                     <a href="#secao-dinamica" class="container-button-comecar">COMEÇAR</a>
+
+                    <div class="container-plataforma-header">
+                        <img src="src/image/felps-arvore.png" alt="felps-arvore" class="felps-arvore">
+                        <img src="src/image/dessa-arvore.png" alt="dessa-arvore" class="dessa-arvore">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+   <aside class="container-plataformas">
+    <div>
+        <img src="src/image/plataforma-1.png" alt="plataforma-1" class="plataforma-1">
+        <img src="src/image/plataforma-dupla.png" alt="plataforma-dupla" class="plataforma-dupla">
+        <img src="src/image/plataforma-longo.png" alt="plataforma-longo" class="plataforma-longo">
+        <img src="src/image/plataforma-pequena.png" alt="plataforma-pequena" class="plataforma-pequena">
+        <img src="src/image/blocos.png" alt="plataforma-blocos" class="plataforma-blocos">
+        <img src="src/image/platacano.png" alt="plataforma-cano" class="plataforma-cano">
+
+    </div>
+
+    <div class="carrossel">
+      <div class="botao-topo">FOTOS DA TURMA</div>
+      <div class="slides">
+        <div class="slide ativo">
+          <img src="src/image/WhatsApp Image 2025-07-06 at 10.49.45 (1).jpeg" alt="Foto 1">
+        </div>
+        <div class="slide">
+          <img src="src/image/WhatsApp Image 2025-07-06 at 10.49.45 (2).jpeg" alt="Foto 2">
+        </div>
+        <div class="slide">
+          <img src="src/image/WhatsApp Image 2025-07-06 at 10.49.45.jpeg" alt="Foto 3">
+        </div>
+      </div>
+      <button class="seta seta-esquerda" onclick="mudarSlide(-1)"></button>
+      <button class="seta seta-direita" onclick="mudarSlide(1)"></button>
+      <div class="pontos">
+        <span class="ponto ativo" onclick="irParaSlide(0)"></span>
+        <span class="ponto" onclick="irParaSlide(1)"></span>
+        <span class="ponto" onclick="irParaSlide(2)"></span>
+      </div>
+    </div>
+
+</aside>
+
+<aside>
+
+    <h1 class="texto-principal-2" id="secao-dinamica">DI<span class="texto-azul">N</span>A<span class="texto-rosa">MI</span>CA</span></h1>
+
+    <div class="background-2">
+        <img src="src/image/fone.png" alt="fone" class="fone">
+        <!-- <img src="src/image/computer.png" alt="computer" class="computer"> -->
+        <img src="src/image/controle.png" alt="controle" class="controle">
+    </div>
+
+<div class="container-cards">
+  <div class="card" onclick="this.classList.toggle('flip')">
+    <div class="card-inner">
+      <div class="card-front">
+        <p class="text-card">felps</p>
+        <img src="src/image/felps-2.png" alt="Carta 1" class="felps-card" />
+      </div>
+      <div class="card-back">
+        <h1>Dinamica: Desenhando o Algoritimo</h1>
+        <p>Objetivo: Mostra ao Algoritimo passo a passo como executar desenhando!! </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" onclick="this.classList.toggle('flip')">
+    <div class="card-inner">
+      <div class="card-front">
+        <p class="text-card">dessa</p>
+        <img src="src/image/dessa-2.png" alt="Carta 2" class="dessa-card" />
+      </div>
+      <div class="card-back">
+        <h1>Dinamica: Computador Humano</h1>
+        <p>Objetivo: Demonstrar, de maneira prática, como o computador segue sequencias exatas e claras.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</aside>
+
+<footer>
+  <div>
+    <h1 class="texto-principal-3" id="secao-dinamica">
+      CO<span class="texto-azul">N</span>C<span class="texto-rosa">LU</span>SÃO
+    </h1>
+  </div>
+
+  <div class="container-conclusao">
+    <!-- Moedas  -->
+    <img src="src/image/moeda.png" alt="moeda" class="moeda moeda-1">
+    <img src="src/image/moeda.png" alt="moeda" class="moeda moeda-2">
+    <img src="src/image/moeda.png" alt="moeda" class="moeda moeda-3">
+    <img src="src/image/moeda.png" alt="moeda" class="moeda moeda-4">
+
+    <!-- Troféu-->
+    <img src="src/image/trofeu-removebg-preview.png" alt="trofeu" class="trofeu">
+
+    <!-- Bonecos (gif)  -->
+    <img src="src/image/lv-0-20250706170635-unscreen.gif" alt="bonecos" class="gif">
+  </div>
+
+  <!-- Terra  -->
+  <div class="container-terra">
+    <img src="src/image/terra.png" alt="terra" class="terra"><img src="src/image/terra.png" alt="terra" class="terra"><img src="src/image/terra.png" alt="terra" class="terra"><img src="src/image/terra.png" alt="terra" class="terra"><img src="src/image/terra.png" alt="terra" class="terra">
+</div>
+</footer>
+    <div class="overlay"></div>
+      <script src="script.js"></script>
+</body>
+</html>
