@@ -546,7 +546,9 @@ footer {
   left: 50%;
   transform: translateX(-50%);
   z-index: 3;
+  
 }
+
 
 .gif {
   width: 320px; /* 🔥 aumentei um pouco no desktop */
